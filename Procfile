@@ -1,1 +1,0 @@
-web: composer run-script pre-install-cmd
