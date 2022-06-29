@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "pre-install-cmd": ": > config.php && cat config.prod.php >> config.php"
-  }
-}
