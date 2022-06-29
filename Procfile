@@ -1,0 +1,1 @@
+web: sh -c ': > config.php && cat config.prod.php >> config.php'
