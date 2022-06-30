@@ -1,6 +1,7 @@
 body {
     background: #ededed;
 }
+
 code {
     padding: 2px 4px;
     font-size: 90%;
@@ -10,12 +11,29 @@ code {
 }
 
 .card-header {
-    padding: 0!important;
+    padding: 0 !important;
 }
 
 .cursor-pointer {
     cursor: pointer;
 }
+
 .logo {
     width: 150px;
+}
+
+.app-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.app-content .router-content {
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding: 10px 15px;
+}
+
+#error-message {
+    height: 24px;
 }

@@ -7,5 +7,10 @@ return [
         'DB_PASSWORD' => 'secret',
         'DB_NAME' => 'site'
     ],
-    "BACKEND_HOST" => "webhook-mocker.com"
+    "BACKEND_HOST" => [
+      "PROTOCOL" => "HTTP",
+      "HOST" => "localhost:3000",
+      "WS_HOST" => "ws://localhost:3000",
+      "CABINET_URL" => "http://localhost:4200/cabinet"
+    ]
 ];
