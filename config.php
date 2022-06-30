@@ -9,8 +9,14 @@
     ],
     "BACKEND_HOST" => [
       "PROTOCOL" => "HTTP",
-      "HOST" => "localhost:3000",
-      "WS_HOST" => "ws://localhost:3000",
-      "CABINET_URL" => "http://localhost:4200/cabinet"
+      "HOST" => "webhook-mocker.com",
+      "WS_HOST" => "ws://webhook-mocker.com",
+      "CABINET_URL" => "http://webhook-mocker.com/cabinet"
     ]
+//    "BACKEND_HOST" => [
+//      "PROTOCOL" => "HTTP",
+//      "HOST" => "localhost:3000",
+//      "WS_HOST" => "ws://localhost:3000",
+//      "CABINET_URL" => "http://localhost:4200/cabinet"
+//    ]
   ];
