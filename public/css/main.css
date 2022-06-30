@@ -37,3 +37,6 @@ code {
 #error-message {
     height: 24px;
 }
+.host-placeholder {
+    letter-spacing: 2px!important;
+}

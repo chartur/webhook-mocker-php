@@ -16,7 +16,7 @@
         <div class="url-container">
             <div class="input-group mb-3">
                 <input id="subdomain-input" name="subdomain" type="text" class="subdomain-input form-control" placeholder="subdomain">
-                <button class="btn btn-primary" type="button">. <?= config("BACKEND_HOST.HOST") ?></button>
+                <button class="btn btn-primary host-placeholder" type="button">.<?= config("BACKEND_HOST.HOST") ?></button>
             </div>
             
             <p id="error-message" class="text-danger text-center"></p>
