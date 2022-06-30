@@ -11,6 +11,6 @@ return [
       "PROTOCOL" => "HTTP",
       "HOST" => "webhook-mocker.com",
       "WS_HOST" => "ws://webhook-mocker.com",
-      "CABINET_URL" => "http://webhook-mocker.com/cabinet"
+      "CABINET_URL" => "http://dashboard.webhook-mocker.me/cabinet"
     ]
 ];
